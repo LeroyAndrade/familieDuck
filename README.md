@@ -17,9 +17,9 @@ Bovendien gebruikt het de kleur uit een data-attribuut om zijn eigen rand en die
 Een voorbeeld van het gebruikt van dat data-attribuut zie je in deze bestanden.
 
 En ander functie wordt met een dubbelklik aangeroepen.
-Deze moet
-- het data-attribuut 'kliks' ophogen
-- De nieuwe waarde van dat attribuut weergeven in de paragraaf, die direct na de afbeelding komt.
+Deze moet:
+- het data-attribuut 'kliks' ophogen;
+- De nieuwe waarde van dat attribuut weergeven in de paragraaf, die direct na de afbeelding komt;
 - Een balletje met dezelfde kleur als het data-attribuut toevoegen in de daarvoor gemaakte div.
 
 Theo den Blanken
