@@ -24,3 +24,7 @@ Deze moet:
 
 Theo den Blanken
 https://blanken5.home.xs4all.nl/ 
+
+### Opmerking
+Bij het omschrijven van het gewenste gedrag van deze pagina zou je het woord als kunnen gebruiken: "Als de muis over een plaatje komt, dan moet de kop dezelfde kleur krijgen van het data-kleur attribuut van dat plaatje".
+Je krijgt dan misschien het idee dat je met de conditinal if() zou moeten werken. Dat kan hier dus niet en je kunt dat ook geen funktie schijven die onafhankelijk is van de plaatjes!
