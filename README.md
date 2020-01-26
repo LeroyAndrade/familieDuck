@@ -7,7 +7,7 @@ Het resultaat is hier te zien: https://youtu.be/GzPRpBbz8Hw
 Het script blijkt niet afhankelijk te zijn van het aantal afbeeldingen.
 
 Deze pagina is niet helemaal compleet.
-De mouse-enter en mouse-leave werken slecht op de eerste 4 plaatjse.
+De mouse-enter en mouse-leave werken slechts op de eerste 4 plaatjes.
 Je kunt dit uitbreiden naar alle 7 de afbeeldingen.
 
 #### Daarnaast moeten er events en 2 functies worden toegevoegd
