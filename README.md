@@ -25,6 +25,9 @@ Deze moet:
 Theo den Blanken
 https://blanken5.home.xs4all.nl/ 
 
+### Presentatie
+https://blanken5.home.xs4all.nl/presReveal/opdrachtFunctionsThisDonaldDuck.html#/
+
 ### Opmerking
 Bij het omschrijven van het gewenste gedrag van deze pagina zou je het woord als kunnen gebruiken: "Als de muis over een plaatje komt, dan moet de kop dezelfde kleur krijgen van het data-kleur attribuut van dat plaatje".
 
