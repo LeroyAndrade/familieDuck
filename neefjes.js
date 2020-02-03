@@ -14,13 +14,12 @@ for(let i=0; i<plaatjes.length; i++) {
     // hier kun je nog 2 events aan toevoegen: click en dblclick
     box.addEventListener('click', function(){
 //1:
-  let border=document.getElementById('one');
+  let borde=document.getElementById('one');
 
       let text=document.getElementById('informatie');
 
       text.innerHTML=this.dataset.info;
-      border.style.borderColor=this.dataset.kleur;
-      document.getElementById('textBox').innerHTML += "geslaagd";
+      borde.style.borderColor=this.dataset.kleur;
         });
 //2:
 }
@@ -48,18 +47,17 @@ function resetKop() {
 */
 
 
-let xyz = document.querySelectorAll('img');
-
 /*xyz.addEventListener('click', function(){
   window.alert(this.dataset.info);
 });
 */
 
+let xyz = document.querySelectorAll('img');
 for(let i =0; i < xyz.length; i++)
 {
   xyz[i].addEventListener('click', function(){
-    console.log(this.dataset.clicks);
-    this.dataset.clicks++;
+   this.dataset.clicks++;
+    document.getElementsByClassName('like').innerHTML = this.dataset.clicks;
   });
 }
 /*
