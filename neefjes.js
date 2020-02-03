@@ -21,10 +21,10 @@ for(let i=0; i<plaatjes.length; i++) {
       text.innerHTML=this.dataset.info;
       border.style.borderColor=this.dataset.kleur;
       document.getElementById('textBox').innerHTML += "geslaagd";
-//this.dataset.clicks+1;
         });
 //2:
 }
+//alert(this.data.clicks);
 
 
 
@@ -48,6 +48,20 @@ function resetKop() {
 */
 
 
+let xyz = document.querySelectorAll('img');
+
+/*xyz.addEventListener('click', function(){
+  window.alert(this.dataset.info);
+});
+*/
+
+for(let i =0; i < xyz.length; i++)
+{
+  xyz[i].addEventListener('click', function(){
+    console.log(this.dataset.clicks);
+    this.dataset.clicks++;
+  });
+}
 /*
     Bovendien moet de sectie info gevuld worden: zowel de kop h3#titel als de p#info.
     De inhoud staat in de het alt-attribuut als een ander data-attribuut van de afbeelding.
