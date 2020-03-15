@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this bij enkele knoppen</title>
+    <style>body{width:80%;background-color: #000;}</style>
+</head>
+<body>
+  <section>
+      <button>knop EEN</button> <br>
+  </section>
+  <section>
+        <button>knop 2</button> <br>
+  </section>
+  <section>
+        <button>knop 3</button> <br>
+  </section>
+  <section>
+        <button>knop 4</button> <br>
+  </section>
+
+    <script>
+        const alleKnoppen = document.getElementsByTagName('section');
+
+        verwerkKnopKlik = function() {
+            // e.preventDefault();
+            console.log(this.innerHTML);
+            this.style.border = "1px solid green";
+        }
+
+        for(let i=0; i<alleKnoppen.length; i++) {
+            alleKnoppen[i].addEventListener('click', verwerkKnopKlik());
+        }
+
+
+    </script>
+</body>
+</html>
