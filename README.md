@@ -1,3 +1,5 @@
+URL: http://30168.hosts2.ma-cloud.nl/bewijzenmap/periode3.3/fro/familieDuck/index.html
+
 # Werkmateriaal oefening JS functies
 ### Een pagina over familie Duck
 
